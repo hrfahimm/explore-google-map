@@ -1,10 +1,11 @@
 import "./App.css";
+import Direction from "./Components/Direction";
 import Maps from "./Components/Maps";
 
 function App() {
   return (
     <div className="App">
-      <Maps></Maps>
+      <Direction></Direction>
     </div>
   );
 }
